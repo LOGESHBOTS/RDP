@@ -33,7 +33,7 @@ jobs:
     - name: Create Tunnel
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp 3389"'
 
-    - name: Connect to RDP [By @Rushidhar1999]
+    - name: Connect to RDP [By @Logesh]
       run: cmd /c start.bat
 
     - name: Install Winrar
